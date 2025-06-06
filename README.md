@@ -11,6 +11,3 @@ Visit the site here:
 - **Hosted by:** MRC DTP Cambridge
 
 ## 🛠 Template build by @ajlkn for [HTML5UP](https://html5up.net/)
-
-## ToDo
-Committee images are not displayed correctly if zoomed in.
