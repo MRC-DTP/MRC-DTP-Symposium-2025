@@ -31,7 +31,25 @@
 
 						<!-- Content -->
 							<section id="content" class="main">
-								<iframe src="../images/Booklet.pdf" width="100%" height="900px" style="border: none;"></iframe>
+								<!-- Mobile-friendly PDF viewing options -->
+								<div style="margin-bottom: 20px; text-align: center;">
+									<p>View the symposium booklet below, or <a href="../images/Booklet.pdf" target="_blank" class="button primary">Open PDF in New Tab</a></p>
+								</div>
+								
+								<!-- PDF Viewer with responsive sizing -->
+								<div style="position: relative; width: 100%; overflow: auto;">
+									<iframe 
+										src="../images/Booklet.pdf" 
+										width="100%" 
+										style="border: none; min-height: 500px; height: 80vh; max-height: 1200px;"
+										title="Symposium Booklet PDF">
+									</iframe>
+								</div>
+								
+								<!-- Alternative download link for mobile -->
+								<div style="margin-top: 20px; text-align: center;">
+									<p><small>Having trouble viewing? <a href="../images/Booklet.pdf" download="SCM_DTP_Symposium_2025_Booklet.pdf">Download the PDF</a></small></p>
+								</div>
 							</section>
 
 					</div>
